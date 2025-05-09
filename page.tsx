@@ -1,9 +1,5 @@
-import SignUpForm from "@/components/sign-up-form"
+import ChatLayout from "@/components/chat-layout"
 
-export default function Home() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <SignUpForm />
-    </div>
-  )
+export default function ChatPage() {
+  return <ChatLayout />
 }
